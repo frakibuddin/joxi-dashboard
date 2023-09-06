@@ -1,0 +1,59 @@
+/* data table */
+
+.dataTables_length,
+div.dataTables_wrapper div.dataTables_info {
+  width: auto;
+  color: var(--text-color-black);
+  float: left;
+}
+.dataTables_length select {
+  background: #f8faff 0% 0% no-repeat padding-box;
+  color: var(--text-color-black);
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #cad6f2;
+  outline: 0;
+  border-radius: 0.5rem;
+}
+/* body.dark-mode .dataTables_length select {
+  background: #2f374c;
+} */
+.dataTables_filter {
+  color: var(--text-color-black);
+}
+.dataTables_filter input {
+  outline: 0;
+  border: 1px solid #cad6f2;
+  background: #f8faff 0% 0% no-repeat padding-box;
+  padding: 0.5rem 0.2rem;
+  color: var(--text-color-black);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 0.5rem;
+}
+.dataTables_filter input:focus,
+.dataTables_length select:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.dataTables_paginate {
+  margin-top: 1rem !important;
+}
+.dataTables_paginate a {
+  text-decoration: none;
+  color: var(--text-color-black);
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #67748ea1;
+}
+.dataTables_paginate .current {
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  font-weight: 600;
+  border-right: 0;
+  border-left: 0;
+  background-color: #4fcb8d;
+  color: #fff;
+}
+.account-content-reg {
+  max-width: 768px !important;
+}
