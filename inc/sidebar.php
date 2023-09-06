@@ -131,15 +131,11 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="site-logo.php">
-                            <span class="menu-title">Site Logo</span>
+                        <a href="site-setting.php">
+                            <span class="menu-title">Site Setting</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="add-users.php">
-                            <span class="banner.php">Banner</span>
-                        </a>
-                    </li>
+
                     <li>
                         <a href="social-links.php">
                             <span class="menu-title">Social Links</span>
