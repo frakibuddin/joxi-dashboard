@@ -19,7 +19,7 @@
         <!-- Start Welcome Back Area -->
         <div class="welcome-back-area">
             <div class="container-fluid">
-                <div class="welcome-back-content">
+                <div class="welcome-back-content mt-0">
                     <span>Welcome Back</span>
                     <h2>JOHN SMILGA</h2>
                     <p>Your students completed 80% of the tasks.</p>

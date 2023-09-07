@@ -10,7 +10,7 @@
                     </div>
 
                     <div class="main-logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="assets/images/white-logo.svg" alt="main-logo">
                         </a>
                     </div>
@@ -46,85 +46,7 @@
                         </a>
                     </div>
 
-                    <div class="header-right-option dropdown apps-option">
-                        <button class="dropdown-item dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="assets/images/icon/app.svg" alt="app">
-                        </button>
 
-                        <div class="dropdown-menu">
-                            <div class="dropdown-header d-flex justify-content-between align-items-center bg-linear">
-                                <span class="title d-inline-block">Web Apps</span>
-                                <span class="edit-btn d-inline-block">Edit</span>
-                            </div>
-
-                            <div class="dropdown-wrap" data-simplebar>
-                                <div class="d-flex flex-wrap align-items-center">
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-account.png" alt="icon-account">
-                                        <span class="d-block mb-0">Account</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-google.png" alt="icon-google">
-                                        <span class="d-block mb-0">Search</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-map.png" alt="icon-map">
-                                        <span class="d-block mb-0">Maps</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-youtube.png" alt="icon-youtube">
-                                        <span class="d-block mb-0">YouTube</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-playstore.png" alt="icon-playstore">
-                                        <span class="d-block mb-0">Play</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-gmail.png" alt="icon-gmail">
-                                        <span class="d-block mb-0">Gmail</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-drive.png" alt="icon-drive">
-                                        <span class="d-block mb-0">Drive</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-calendar.png" alt="icon-calendar">
-                                        <span class="d-block mb-0">Calendar</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-bitbucket.png" alt="icon-bitbucket">
-                                        <span class="d-block mb-0">Bitbucket</span>
-                                    </a>
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-github.png" alt="icon-github">
-                                        <span class="d-block mb-0">Github</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-dribbble.png" alt="icon-dribbble">
-                                        <span class="d-block mb-0">Dribbble</span>
-                                    </a>
-
-                                    <a href="#" class="dropdown-item">
-                                        <img src="assets/images/apps/icon-mail-chimp.png" alt="icon-mail-chimp">
-                                        <span class="d-block mb-0">Mailchimp</span>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="dropdown-footer">
-                                <a href="#" class="dropdown-item">View All</a>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="header-right-option notification-option messenger-option dropdown">
                         <div class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -223,7 +145,7 @@
                             </div>
 
                             <div class="dropdown-wrap" data-simplebar>
-                                <a href="inbox.html" class="dropdown-item d-flex align-items-center">
+                                <a href="inbox.php" class="dropdown-item d-flex align-items-center">
                                     <div class="icon">
                                         <i class='bx bx-message-rounded-dots'></i>
                                     </div>

@@ -21,16 +21,15 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="manage-users.php">
-                            <span class="menu-title">Manage Category</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="add-users.php">
+                        <a href="add-category.php">
                             <span class="menu-title">Add Category</span>
                         </a>
                     </li>
-
+                    <li>
+                        <a href="manage-category.php">
+                            <span class="menu-title">Manage Category</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
 
@@ -46,16 +45,15 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="manage-users.php">
-                            <span class="menu-title">Manage Services</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="add-users.php">
+                        <a href="add-services.php">
                             <span class="menu-title">Add Services</span>
                         </a>
                     </li>
-
+                    <li>
+                        <a href="manage-services.php">
+                            <span class="menu-title">Manage Services</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
 
@@ -69,16 +67,15 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="manage-users.php">
-                            <span class="menu-title">Manage Users</span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="add-users.php">
                             <span class="menu-title">Add Users</span>
                         </a>
                     </li>
-
+                    <li>
+                        <a href="manage-users.php">
+                            <span class="menu-title">Manage Users</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
 
@@ -97,17 +94,22 @@
                         </a>
                     </li>
                     <li>
-                        <a href="remix-icon.html">
+                        <a href="register.php">
                             <span class="menu-title">Registration</span>
                         </a>
                     </li>
                     <li>
-                        <a href="remix-icon.html">
+                        <a href="profile.php">
+                            <span class="menu-title">Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="forget-password.php">
                             <span class="menu-title">Forget Password</span>
                         </a>
                     </li>
                     <li>
-                        <a href="remix-icon.html">
+                        <a href="404.php">
                             <span class="menu-title">404 pages</span>
                         </a>
                     </li>

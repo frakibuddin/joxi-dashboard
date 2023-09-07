@@ -22,14 +22,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6">
                         <div class="page-title">
-                            <h3>ADD Users</h3>
+                            <h3>Edit Users</h3>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                         <ul class="page-title-list">
                             <li>Pages</li>
-                            <li>Add Users</li>
+                            <li>Add Edit</li>
                         </ul>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
             <div class="container-fluid">
                 <div class="card-box-style rounded">
                     <div class="others-title">
-                        <p class="fw-bold">Input the user info to add a new user</p>
+                        <p class="fw-bold">Input the user info to edit user data</p>
                     </div>
 
                     <form>
@@ -80,8 +80,8 @@
                                 <input type="password" class="form-control" id="inputPassword3">
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-info">Reset</button>
-                        <button type="submit" class="btn btn-primary">Add User</button>
+
+                        <button type="submit" class="btn btn-primary">Update User</button>
                     </form>
                 </div>
             </div>

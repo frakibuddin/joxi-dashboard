@@ -22,14 +22,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6">
                         <div class="page-title">
-                            <h3>ADD Social Links</h3>
+                            <h3>Edit Users</h3>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                         <ul class="page-title-list">
                             <li>Pages</li>
-                            <li>Add Social Links</li>
+                            <li>Add Edit</li>
                         </ul>
                     </div>
                 </div>
@@ -42,36 +42,25 @@
             <div class="container-fluid">
                 <div class="card-box-style rounded">
                     <div class="others-title">
-                        <p class="fw-bold">Add you social media links</p>
+                        <p class="fw-bold">Input the Category info to edit Category data</p>
                     </div>
 
                     <form>
                         <div class="row mb-3">
-                            <label for="inputEmail1" class="col-sm-2 col-form-label">Facebook</label>
+                            <label for="inputEmail2" class="col-sm-2 col-form-label">Category Name</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail1" placeholder="http://example.com">
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <label for="inputEmail2" class="col-sm-2 col-form-label">Twitter</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail2" placeholder="http://example.com">
+                                <input type="text" class="form-control" id="inputEmail2">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Linkdin</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Category Slug</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputEmail3" placeholder="http://example.com">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-2 col-form-label">Youtube</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="http://example.com">
+                                <input type="text" class="form-control" id="inputEmail3">
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Add Links</button>
+
+                        <button type="submit" class="btn btn-primary">Update Category</button>
                     </form>
                 </div>
             </div>

@@ -46,18 +46,7 @@
                     </div>
                     <!-- End Dark Mode All Area -->
                 </li>
-                <li>
-                    <h4>LTR/RTL</h4>
-                    <div class="d-flex justify-content-between">
-                        <a href="https://templates.envytheme.com/joxi/default/" class="default-btn active me-1">LTR</a>
-                        <a href="https://templates.envytheme.com/joxi/rtl/" class="default-btn ms-1">RTL</a>
-                    </div>
-                </li>
-                <li>
-                    <a class="default-btn active" target="_blank" href="https://1.envato.market/zaJjLe">
-                        Buy Now
-                    </a>
-                </li>
+
             </ul>
         </div>
     </div>

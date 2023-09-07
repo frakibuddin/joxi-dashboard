@@ -22,14 +22,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6">
                         <div class="page-title">
-                            <h3>ADD Users</h3>
+                            <h3>Edit Services</h3>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                         <ul class="page-title-list">
                             <li>Pages</li>
-                            <li>Add Users</li>
+                            <li>Edit Services</li>
                         </ul>
                     </div>
                 </div>
@@ -42,26 +42,20 @@
             <div class="container-fluid">
                 <div class="card-box-style rounded">
                     <div class="others-title">
-                        <p class="fw-bold">Input the user info to add a new user</p>
+                        <p class="fw-bold">Input the Services info to Edit a Current Services</p>
                     </div>
 
                     <form>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Full Name</label>
+                            <label for="inputEmail2" class="col-sm-2 col-form-label">Services Name</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3">
+                                <input type="text" class="form-control" id="inputEmail2">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Services Slug</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3">
+                                <input type="text" class="form-control" id="inputEmail3">
                             </div>
                         </div>
                         <div class="row mb-3">
@@ -75,13 +69,18 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Services Desc</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword3">
+                                <div class="form-group">
+                                    <div id="txtEditor"></div>
+                                </div>
                             </div>
+
+
                         </div>
-                        <button type="submit" class="btn btn-info">Reset</button>
-                        <button type="submit" class="btn btn-primary">Add User</button>
+
+
+                        <button type="submit" class="btn btn-primary">Update Category</button>
                     </form>
                 </div>
             </div>

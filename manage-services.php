@@ -72,14 +72,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6">
                         <div class="page-title">
-                            <h3>Manage User</h3>
+                            <h3>Manage Services</h3>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                         <ul class="page-title-list">
                             <li>Pages</li>
-                            <li>Manage User</li>
+                            <li>Manage Services</li>
                         </ul>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
             <div class="container-fluid">
                 <div class="table-responsive" data-simplebar>
                     <div class="others-title">
-                        <h3>See All Users</h3>
+                        <h3>See All Services</h3>
                     </div>
 
                     <table id="example" class="table align-middle mb-0">
