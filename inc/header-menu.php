@@ -10,7 +10,7 @@
                     </div>
 
                     <div class="main-logo">
-                        <a href="index.php">
+                        <a href="index">
                             <img src="assets/images/white-logo.svg" alt="main-logo">
                         </a>
                     </div>
@@ -63,7 +63,7 @@
                             </div>
 
                             <div class="dropdown-wrap" data-simplebar>
-                                <a href="chat.php" class="dropdown-item d-flex">
+                                <a href="chat" class="dropdown-item d-flex">
                                     <div class="icon">
                                         <img src="assets/images/user/user-1.png" alt="user-1">
                                     </div>
@@ -75,7 +75,7 @@
                                     </div>
                                 </a>
 
-                                <a href="chat.php" class="dropdown-item d-flex">
+                                <a href="chat" class="dropdown-item d-flex">
                                     <div class="icon">
                                         <img src="assets/images/user/user-2.png" alt="user-2">
                                     </div>
@@ -87,7 +87,7 @@
                                     </div>
                                 </a>
 
-                                <a href="chat.php" class="dropdown-item d-flex">
+                                <a href="chat" class="dropdown-item d-flex">
                                     <div class="icon">
                                         <img src="assets/images/user/user-3.png" alt="user-3">
                                     </div>
@@ -99,7 +99,7 @@
                                     </div>
                                 </a>
 
-                                <a href="chat.php" class="dropdown-item d-flex">
+                                <a href="chat" class="dropdown-item d-flex">
                                     <div class="icon">
                                         <img src="assets/images/user/user-4.png" alt="user-4">
                                     </div>
@@ -111,7 +111,7 @@
                                     </div>
                                 </a>
 
-                                <a href="chat.php" class="dropdown-item d-flex">
+                                <a href="chat" class="dropdown-item d-flex">
                                     <div class="icon">
                                         <img src="assets/images/user/user-5.png" alt="user-5">
                                     </div>
@@ -125,7 +125,7 @@
                             </div>
 
                             <div class="dropdown-footer">
-                                <a href="chat.php" class="dropdown-item">View All</a>
+                                <a href="chat" class="dropdown-item">View All</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                             </div>
 
                             <div class="dropdown-wrap" data-simplebar>
-                                <a href="inbox.php" class="dropdown-item d-flex align-items-center">
+                                <a href="inbox" class="dropdown-item d-flex align-items-center">
                                     <div class="icon">
                                         <i class='bx bx-message-rounded-dots'></i>
                                     </div>
@@ -156,7 +156,7 @@
                                     </div>
                                 </a>
 
-                                <a href="inbox.php" class="dropdown-item d-flex align-items-center">
+                                <a href="inbox" class="dropdown-item d-flex align-items-center">
                                     <div class="icon">
                                         <i class='bx bx-user'></i>
                                     </div>
@@ -167,7 +167,7 @@
                                     </div>
                                 </a>
 
-                                <a href="inbox.php" class="dropdown-item d-flex align-items-center">
+                                <a href="inbox" class="dropdown-item d-flex align-items-center">
                                     <div class="icon">
                                         <i class='bx bx-layer'></i>
                                     </div>
@@ -178,7 +178,7 @@
                                     </div>
                                 </a>
 
-                                <a href="inbox.php" class="dropdown-item d-flex align-items-center">
+                                <a href="inbox" class="dropdown-item d-flex align-items-center">
                                     <div class="icon">
                                         <i class='bx bx-hourglass'></i>
                                     </div>
@@ -189,7 +189,7 @@
                                     </div>
                                 </a>
 
-                                <a href="inbox.php" class="dropdown-item d-flex align-items-center">
+                                <a href="inbox" class="dropdown-item d-flex align-items-center">
                                     <div class="icon">
                                         <i class='bx bx-comment-dots'></i>
                                     </div>
@@ -202,7 +202,7 @@
                             </div>
 
                             <div class="dropdown-footer">
-                                <a href="inbox.php" class="dropdown-item">View All</a>
+                                <a href="inbox" class="dropdown-item">View All</a>
                             </div>
                         </div>
                     </div>
@@ -233,28 +233,28 @@
                             <div class="dropdown-wrap">
                                 <ul class="profile-nav p-0 pt-3">
                                     <li class="nav-item">
-                                        <a href="profile.php" class="nav-link">
+                                        <a href="profile" class="nav-link">
                                             <i class="ri-user-line"></i>
                                             <span>Profile</span>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="inbox.php" class="nav-link">
+                                        <a href="inbox" class="nav-link">
                                             <i class="ri-mail-send-line"></i>
                                             <span>My Inbox</span>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="edit-profile.php" class="nav-link">
+                                        <a href="edit-profile" class="nav-link">
                                             <i class="ri-edit-box-line"></i>
                                             <span>Edit Profile</span>
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="edit-profile.php" class="nav-link">
+                                        <a href="edit-profile" class="nav-link">
                                             <i class="ri-settings-5-line"></i>
                                             <span>Settings</span>
                                         </a>
@@ -263,9 +263,16 @@
                             </div>
 
                             <div class="dropdown-footer">
+                                <li class="nav-item">
+                                    <a href="edit-profile" class="nav-link">
+                                        <i class="ri-map-pin-user-fill"></i>
+                                        <span>10.10.390.34</span>
+                                    </a>
+                                </li>
                                 <ul class="profile-nav">
+
                                     <li class="nav-item">
-                                        <a href="login.php" class="nav-link">
+                                        <a href="login" class="nav-link">
                                             <i class="ri-login-circle-line"></i>
                                             <span>Logout</span>
                                         </a>

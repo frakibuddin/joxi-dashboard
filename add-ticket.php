@@ -58,6 +58,24 @@
                                 <input type="text" class="form-control" id="inputEmail3">
                             </div>
                         </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Select</label>
+                            <div class="col-sm-10">
+                                <select class="form-control choices-single2 w-100">
+                                    <option value="" selected>Choose...</option>
+                                    <option value="Option One">Option One</option>
+                                    <option value="Option Two">Option Two</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Desc</label>
+                            <div class="col-sm-10">
+                                <div class="form-group">
+                                    <div id="txtEditor"></div>
+                                </div>
+                            </div>
+                        </div>
 
 
                         <button type="submit" class="btn btn-primary">Add Ticket</button>
@@ -78,3 +96,6 @@
 <!-- End All Section Area -->
 
 <?php include('inc/footer.php') ?>
+<script>
+    new Choices(document.querySelector(".choices-single2"));
+</script>
