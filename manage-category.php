@@ -134,7 +134,7 @@
                                 <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="#">
+                                            <a href="edit-category.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -175,7 +175,7 @@
                                 <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="#">
+                                            <a href="edit-category.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -216,7 +216,7 @@
                                 <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="#">
+                                            <a href="edit-category.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -257,7 +257,7 @@
                                 <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="#">
+                                            <a href="edit-category.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -298,7 +298,7 @@
                                 <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="#">
+                                            <a href="edit-category.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>

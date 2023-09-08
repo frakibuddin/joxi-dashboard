@@ -57,3 +57,22 @@ div.dataTables_wrapper div.dataTables_info {
 .account-content-reg {
   max-width: 768px !important;
 }
+.choices__inner {
+  color: #292d32;
+  border: 1px solid #f1f5ff;
+  background-color: #f1f5ff;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px 10px;
+  min-height: 56px;
+  width: 100%;
+  transition: all ease 0.5s;
+}
+.darkmode-body .choices__inner {
+  background-color: #212529;
+  border-color: #40474e;
+  color: #ffffff;
+}
+table .form-check {
+  padding-left: 0 !important;
+}

@@ -149,13 +149,7 @@
         <div class="flex-grow-1"></div>
 
         <!-- Start Footer Area -->
-        <div class="footer-area">
-            <div class="container-fluid">
-                <div class="footer-content">
-                    <p>© Joxi is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
-                </div>
-            </div>
-        </div>
+        <?php include('inc/footer-text.php') ?>
         <!-- End Footer Area -->
     </main>
     <!-- End Main Content Area -->

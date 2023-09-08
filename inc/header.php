@@ -13,6 +13,9 @@
     <!-- my  added css -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css" />
+
+
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/remixicon.css">
     <link rel="stylesheet" href="assets/css/boxicons.min.css">
@@ -36,7 +39,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.svg">
     <!-- Title -->
-    <title>Joxi - Bootstrap 5 Admin Dashboard Template</title>
+    <title>Asoftvision - Admin Dashboard Template</title>
 </head>
 
 <body class="body-bg-f8faff">

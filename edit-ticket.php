@@ -22,14 +22,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6">
                         <div class="page-title">
-                            <h3>Add Services</h3>
+                            <h3>Edit Ticket</h3>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                         <ul class="page-title-list">
                             <li>Pages</li>
-                            <li>Add Services</li>
+                            <li>Edit Ticket</li>
                         </ul>
                     </div>
                 </div>
@@ -42,46 +42,24 @@
             <div class="container-fluid">
                 <div class="card-box-style rounded">
                     <div class="others-title">
-                        <p class="fw-bold">Input the Services info to add a new Services</p>
+                        <p class="fw-bold">Input the Ticket info to Edit Ticket</p>
                     </div>
 
                     <form>
                         <div class="row mb-3">
-                            <label for="inputEmail2" class="col-sm-2 col-form-label">Services Name</label>
+                            <label for="inputEmail2" class="col-sm-2 col-form-label">Ticket Name</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" id="inputEmail2">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Services Slug</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Ticket Credits</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" id="inputEmail3">
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Select</label>
-                            <div class="col-sm-10">
-                                <select class="form-control choices-single2 w-100">
-                                    <option value="" selected>Choose...</option>
-                                    <option value="Option One">Option One</option>
-                                    <option value="Option Two">Option Two</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Services Desc</label>
-                            <div class="col-sm-10">
-                                <div class="form-group">
-                                    <div id="txtEditor"></div>
-                                </div>
-                            </div>
 
-
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Add Services</button>
-                        <button type="submit" class="btn btn-info">Reset</button>
-
+                        <button type="submit" class="btn btn-primary">Update Ticket</button>
                     </form>
                 </div>
             </div>
@@ -98,6 +76,3 @@
 <!-- End All Section Area -->
 
 <?php include('inc/footer.php') ?>
-<script>
-    new Choices(document.querySelector(".choices-single2"));
-</script>

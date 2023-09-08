@@ -60,6 +60,29 @@
             <li>
                 <a href="#" class="has-arrow box-style">
                     <div class="icon">
+                        <img src="assets/images/icon/shapes.svg" alt="icon">
+                    </div>
+                    <span class="menu-title">Tickets</span>
+                </a>
+
+                <ul class="sidemenu-nav-second-level">
+                    <li>
+                        <a href="add-ticket.php">
+                            <span class="menu-title">Add Ticket</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="manage-ticket.php">
+                            <span class="menu-title">Manage Ticket</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" class="has-arrow box-style">
+                    <div class="icon">
                         <img src="assets/images/icon/user-octagon.svg" alt="icon">
                     </div>
                     <span class="menu-title">Users</span>
@@ -115,13 +138,28 @@
                     </li>
                 </ul>
             </li>
+
             <li>
-                <a href="invoice.php" class="box-style d-flex align-items-center">
+                <a href="#" class="has-arrow box-style">
                     <div class="icon">
-                        <img src="assets/images/icon/fatrows.svg" alt="profile-2user">
+                        <img src="assets/images/icon/fatrows.svg" alt="icon">
                     </div>
                     <span class="menu-title">Invoice</span>
                 </a>
+
+                <ul class="sidemenu-nav-second-level">
+                    <li>
+                        <a href="add-invoice.php">
+                            <span class="menu-title">Add Invoice</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="manage-invoice.php">
+                            <span class="menu-title">Manage Invoice</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="#" class="has-arrow box-style">

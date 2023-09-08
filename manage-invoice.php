@@ -18,7 +18,6 @@
         <div class="modal-area">
             <div class="container-fluid">
 
-
                 <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-scrollable">
@@ -72,14 +71,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6">
                         <div class="page-title">
-                            <h3>Manage User</h3>
+                            <h3>Manage Invoices</h3>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-sm-6">
                         <ul class="page-title-list">
                             <li>Pages</li>
-                            <li>Manage User</li>
+                            <li>Manage Invoices</li>
                         </ul>
                     </div>
                 </div>
@@ -92,20 +91,23 @@
             <div class="container-fluid">
                 <div class="table-responsive" data-simplebar>
                     <div class="others-title">
-                        <h3>See All Users</h3>
+                        <h3>See All Invoice</h3>
                     </div>
 
                     <table id="example" class="table align-middle mb-0">
                         <thead>
                             <tr class="text-center">
                                 <th scope="col">
-                                    <h6>Email</h6>
+                                    <h6>Name</h6>
                                 </th>
                                 <th scope="col">
                                     <h6>Number</h6>
                                 </th>
                                 <th scope="col">
                                     <h6>Address</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6>Status</h6>
                                 </th>
                                 <th scope="col">
                                     <h6>Action</h6>
@@ -133,9 +135,12 @@
                                     <span class="location">32/B, Central town, England</span>
                                 </td>
                                 <td>
+                                    <span class="badge text-bg-warning">Unpaid</span>
+                                </td>
+                                <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="edit-users.php">
+                                            <a href="edit-invoice.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -153,7 +158,6 @@
                                     </ul>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>
                                     <div class="form-check d-flex align-items-center">
@@ -174,9 +178,12 @@
                                     <span class="location">32/B, Central town, England</span>
                                 </td>
                                 <td>
+                                    <span class="badge text-bg-warning">Unpaid</span>
+                                </td>
+                                <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="edit-users.php">
+                                            <a href="edit-invoice.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -194,89 +201,6 @@
                                     </ul>
                                 </td>
                             </tr>
-
-                            <tr>
-                                <td>
-                                    <div class="form-check d-flex align-items-center">
-
-                                        <label class="form-check-label ">
-                                            <img class="rounded-circle me-3 border" src="assets/images/user/user-2.png" alt="user-2">
-                                        </label>
-                                        <div class="info">
-                                            <h4>Victor James</h4>
-                                            <a href="mailto:">victorjames@gmail.com</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <a href="tel:+(124)45678910">+ (124) 456 78910</a>
-                                </td>
-                                <td>
-                                    <span class="location">32/B, Central town, England</span>
-                                </td>
-                                <td>
-                                    <ul class="d-flex justify-content-betweens align-items-center">
-                                        <li>
-                                            <a href="edit-users.php">
-                                                <i class="bx bx-edit-alt fs-3"></i>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
-                                                <i data-v-3fe659be="" class="ri-eye-fill fs-3"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/icon/trash-2.svg" alt="trash-2">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <div class="form-check d-flex align-items-center">
-
-                                        <label class="form-check-label ">
-                                            <img class="rounded-circle me-3 border" src="assets/images/user/user-2.png" alt="user-2">
-                                        </label>
-                                        <div class="info">
-                                            <h4>Jane Ronan</h4>
-                                            <a href="mailto:anderson@gmail.com">ajaneronan@gmail.com</a>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <a href="tel:+(124)45678910">+ (124) 456 78910</a>
-                                </td>
-                                <td>
-                                    <span class="location">32/B, Central town, England</span>
-                                </td>
-                                <td>
-                                    <ul class="d-flex justify-content-betweens align-items-center">
-                                        <li>
-                                            <a href="edit-users.php">
-                                                <i class="bx bx-edit-alt fs-3"></i>
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
-                                                <i data-v-3fe659be="" class="ri-eye-fill fs-3"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="assets/images/icon/trash-2.svg" alt="trash-2">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-
                             <tr>
                                 <td>
                                     <div class="form-check d-flex align-items-center">
@@ -285,8 +209,8 @@
                                             <img class="rounded-circle me-3 border" src="assets/images/user/user-2.png" alt="user-2">
                                         </label>
                                         <div class="info">
-                                            <h4>Angela Carter</h4>
-                                            <a href="mailto:">angelacarter@gmail.com</a>
+                                            <h4>Victor James</h4>
+                                            <a href="mailto:">victojrames@gmail.com</a>
                                         </div>
                                     </div>
                                 </td>
@@ -297,9 +221,12 @@
                                     <span class="location">32/B, Central town, England</span>
                                 </td>
                                 <td>
+                                    <span class="badge text-bg-success">Paid</span>
+                                </td>
+                                <td>
                                     <ul class="d-flex justify-content-betweens align-items-center">
                                         <li>
-                                            <a href="edit-users.php">
+                                            <a href="edit-invoice.php">
                                                 <i class="bx bx-edit-alt fs-3"></i>
                                             </a>
                                         </li>
@@ -317,7 +244,6 @@
                                     </ul>
                                 </td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>

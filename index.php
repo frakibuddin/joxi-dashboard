@@ -157,55 +157,7 @@
         <div class="student-progress-area">
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="row justify-content-center">
-                            <div class="col-xxl-6">
-                                <div class="works-stats-content card-box-style rounded">
-                                    <div class="main-title border-style d-flex justify-content-between align-items-center">
-                                        <h3>Works Stats</h3>
-
-                                        <select class="form-select form-control" aria-label="Default select example">
-                                            <option selected>Today</option>
-                                            <option value="1">16 days</option>
-                                            <option value="2">17 days</option>
-                                            <option value="3">18 days</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="works-chart text-center">
-                                        <div id="works_chart_2"></div>
-                                    </div>
-
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-4 col-sm-4">
-                                            <div class="single-works">
-                                                <span class="title">Lesson Discuss</span>
-                                                <h4>2.5 <span>Hrs</span></h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-sm-4">
-                                            <div class="single-works border-style-4fcb8d">
-                                                <span class="title">Taking Class</span>
-                                                <h4>6.4 <span>Hrs</span></h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-sm-4">
-                                            <div class="single-works border-style-fec107">
-                                                <span class="title">Work In Progress</span>
-                                                <h4>1,202 <span>+32.50%</span></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--  -->
-                        </div>
-
-
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="media-files-content card-box-style rounded">
                             <div class="main-title border-style d-flex justify-content-between align-items-center">
                                 <h3>Activity Statistics</h3>
@@ -427,5 +379,3 @@
 <!-- End All Section Area -->
 
 <?php include('inc/footer.php') ?>
-<script src="assets/js/apexcharts/apexcharts.min.js"></script>
-<script src="assets/js/apexcharts/hr-management.js"></script>
