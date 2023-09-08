@@ -75,7 +75,7 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-info">Reset</button>
+
                         <button type="submit" class="btn btn-primary">Update Invoice</button>
                     </form>
                 </div>

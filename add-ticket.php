@@ -59,8 +59,9 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-info">Reset</button>
+
                         <button type="submit" class="btn btn-primary">Add Ticket</button>
+                        <button type="submit" class="btn btn-info">Reset</button>
                     </form>
                 </div>
             </div>

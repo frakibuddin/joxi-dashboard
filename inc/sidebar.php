@@ -3,7 +3,7 @@
         <ul id="sidebar-menu" class="sidebar-menu">
 
             <li class="mm-active">
-                <a href="index.php" class="box-style d-flex align-items-center">
+                <a href="index" class="box-style d-flex align-items-center">
                     <div class="icon">
                         <img src="assets/images/icon/element.svg" alt="element">
                     </div>
@@ -21,12 +21,12 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="add-category.php">
+                        <a href="add-categories">
                             <span class="menu-title">Add Category</span>
                         </a>
                     </li>
                     <li>
-                        <a href="manage-category.php">
+                        <a href="manage-category">
                             <span class="menu-title">Manage Category</span>
                         </a>
                     </li>
@@ -45,12 +45,12 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="add-services.php">
+                        <a href="add-services">
                             <span class="menu-title">Add Services</span>
                         </a>
                     </li>
                     <li>
-                        <a href="manage-services.php">
+                        <a href="manage-services">
                             <span class="menu-title">Manage Services</span>
                         </a>
                     </li>
@@ -67,13 +67,13 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="add-ticket.php">
+                        <a href="add-ticket">
                             <span class="menu-title">Add Ticket</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="manage-ticket.php">
+                        <a href="manage-ticket">
                             <span class="menu-title">Manage Ticket</span>
                         </a>
                     </li>
@@ -90,12 +90,12 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="add-users.php">
+                        <a href="add-users">
                             <span class="menu-title">Add Users</span>
                         </a>
                     </li>
                     <li>
-                        <a href="manage-users.php">
+                        <a href="manage-users">
                             <span class="menu-title">Manage Users</span>
                         </a>
                     </li>
@@ -112,27 +112,27 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="login.php">
+                        <a href="login">
                             <span class="menu-title">Login</span>
                         </a>
                     </li>
                     <li>
-                        <a href="register.php">
+                        <a href="register">
                             <span class="menu-title">Registration</span>
                         </a>
                     </li>
                     <li>
-                        <a href="profile.php">
+                        <a href="profile">
                             <span class="menu-title">Profile</span>
                         </a>
                     </li>
                     <li>
-                        <a href="forget-password.php">
+                        <a href="forget-password">
                             <span class="menu-title">Forget Password</span>
                         </a>
                     </li>
                     <li>
-                        <a href="404.php">
+                        <a href="404">
                             <span class="menu-title">404 pages</span>
                         </a>
                     </li>
@@ -149,13 +149,13 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="add-invoice.php">
+                        <a href="add-invoice">
                             <span class="menu-title">Add Invoice</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="manage-invoice.php">
+                        <a href="manage-invoice">
                             <span class="menu-title">Manage Invoice</span>
                         </a>
                     </li>
@@ -171,13 +171,13 @@
 
                 <ul class="sidemenu-nav-second-level">
                     <li>
-                        <a href="site-setting.php">
+                        <a href="site-setting">
                             <span class="menu-title">Site Setting</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="social-links.php">
+                        <a href="social-links">
                             <span class="menu-title">Social Links</span>
                         </a>
                     </li>
