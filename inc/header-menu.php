@@ -240,7 +240,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="inbox" class="nav-link">
+                                        <a href="chat" class="nav-link">
                                             <i class="ri-mail-send-line"></i>
                                             <span>My Inbox</span>
                                         </a>
@@ -259,16 +259,17 @@
                                             <span>Settings</span>
                                         </a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="edit-profile" class="nav-link">
+                                            <i class="ri-map-pin-user-fill"></i>
+                                            <span>10.10.390.34</span>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
 
                             <div class="dropdown-footer">
-                                <li class="nav-item">
-                                    <a href="edit-profile" class="nav-link">
-                                        <i class="ri-map-pin-user-fill"></i>
-                                        <span>10.10.390.34</span>
-                                    </a>
-                                </li>
+
                                 <ul class="profile-nav">
 
                                     <li class="nav-item">
