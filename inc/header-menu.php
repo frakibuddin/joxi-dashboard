@@ -239,38 +239,6 @@
                                         </a>
                                     </li>
 
-                                    <li class="nav-item">
-                                        <a href="chat" class="nav-link">
-                                            <i class="ri-mail-send-line"></i>
-                                            <span>My Inbox</span>
-                                        </a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="edit-profile" class="nav-link">
-                                            <i class="ri-edit-box-line"></i>
-                                            <span>Edit Profile</span>
-                                        </a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="edit-profile" class="nav-link">
-                                            <i class="ri-settings-5-line"></i>
-                                            <span>Settings</span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="edit-profile" class="nav-link">
-                                            <i class="ri-map-pin-user-fill"></i>
-                                            <span>10.10.390.34</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="dropdown-footer">
-
-                                <ul class="profile-nav">
 
                                     <li class="nav-item">
                                         <a href="login" class="nav-link">
@@ -278,6 +246,20 @@
                                             <span>Logout</span>
                                         </a>
                                     </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-footer">
+
+                                <ul class="profile-nav">
+                                    <li class="nav-item">
+                                        <a href="edit-profile" class="nav-link">
+                                            <i class="ri-map-pin-user-fill"></i>
+                                            <span>10.10.390.34</span>
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </div>
                         </div>

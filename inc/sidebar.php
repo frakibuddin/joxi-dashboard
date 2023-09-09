@@ -122,6 +122,11 @@
                         </a>
                     </li>
                     <li>
+                        <a href="otp-verify">
+                            <span class="menu-title">OTP Verify</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="profile">
                             <span class="menu-title">Profile</span>
                         </a>

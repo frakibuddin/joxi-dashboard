@@ -34,20 +34,24 @@
                                             <td scope="col">03</th>
                                         </tr>
                                         <tr>
-                                            <th scope="col">Name</th>
-                                            <td scope="col">Angela Carter</td>
+                                            <th scope="col">Invoice Name</th>
+                                            <td scope="col">Test Invoice</td>
                                         </tr>
                                         <tr>
-                                            <th scope="col">Email</th>
+                                            <th scope="col">Invoice Status</th>
+                                            <td scope="col">Paid</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Invoice Number</th>
                                             <td scope="col">angelacarter@gmail.com</td>
                                         </tr>
                                         <tr>
-                                            <th scope="col">Phone</th>
-                                            <td scope="col">347983748</td>
+                                            <th scope="col">Address</th>
+                                            <td scope="col">test</td>
                                         </tr>
                                         <tr>
-                                            <th scope="col">Phone</th>
-                                            <td scope="col">347983748</td>
+                                            <th scope="col">Date</th>
+                                            <td scope="col">4/5/2023</td>
                                         </tr>
                                     </thead>
 
